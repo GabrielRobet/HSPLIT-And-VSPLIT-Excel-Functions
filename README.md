@@ -1,17 +1,15 @@
 # HSPLIT-And-VSPLIT-Excel-Functions
-XIRRIF is an Excel VBA Function to calculate XIRR for a range that meet criteria that you specify, comparably to standard Excel formulas like COUNTIF, SUMIF, MINIF, MAXIF...
+HSPLIT is an Excel VBA Function to split a text string by a specified delimiter into a *horizontal* list of substrings.
+
+VSPLIT is an Excel VBA Function to split a text string by a specified delimiter into a *vertical* list of substrings.
 
 ## Syntax
-`=XIRRIF(Values,Dates,Range,Criteria,GuessValue)`
+`=HSPLIT(MyText,MyDelimiter)`
 
-## Uses
-- Like for the standard XIRR Excel Formula, the input data must be sorted firstly by **Range** (A to Z) and secondly by **Dates** (Oldest to Newest).
-- Arguments **Range**, **Criteria**, **GuessValue** are optional.
-- If arguments **Range** and **Criteria** are omitted, the XIRRIF Excel Function gives the same result as the standard XIRR Excel Formula.
-- The optional argument **GuessValue** is identical to the initial guess value in the standard XIRR Excel Formula.
+`=VSPLIT(MyText,MyDelimiter)`
 
 ## Example
-The downloadable macro-enabled Excel file includes an example with XIRRIF calculated for 5 funds, 50 investments and 800 cashflows.
+The downloadable macro-enabled Excel file includes an example with HSPLIT and VSPLIT splitting 1 text string into a list of 9 substrings.
 
 Screenshot:
 

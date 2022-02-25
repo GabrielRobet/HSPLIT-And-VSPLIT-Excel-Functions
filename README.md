@@ -13,4 +13,4 @@ The downloadable macro-enabled Excel file includes an example with HSPLIT and VS
 
 Screenshot:
 
-![Screenshot-Example-1](/assets/Screenshot-Example.png)
+![Screenshot-Example](/assets/Screenshot-Example.png)
